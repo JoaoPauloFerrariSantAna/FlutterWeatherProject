@@ -1,1 +1,2 @@
-# Flutter Metereological Project (FMP)
+# Flutter Meterological Project (FMP)
+
