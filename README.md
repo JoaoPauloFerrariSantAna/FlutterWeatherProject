@@ -24,13 +24,12 @@ Simple as that.
 
 1. Python
 	- FastApi (server)
-	- mypy (linter)
+	- pydantic (data validator)
 
 ### Frontend
 
 1. Dart
 	- Flutter
-
 
 ## How to Run
 
@@ -38,7 +37,6 @@ Simple as that.
 	- Run the `flutter run` command
 	- Select `[2]: Chrome (chrome)`
 2. Running the server
-	- Download the server dependencies (requirements.txt)
-		- The file will be there once I start to work in the backend
-	- Run the `python3 -m pip install -r requirements.txtx` command to install the server's dependencies
+	- Run the `python3 -m pip install -r requirements.txtx` command to install
+	the server's dependencies
 	- Run the `python3 -m fastapi run` command to run the fast api production server
