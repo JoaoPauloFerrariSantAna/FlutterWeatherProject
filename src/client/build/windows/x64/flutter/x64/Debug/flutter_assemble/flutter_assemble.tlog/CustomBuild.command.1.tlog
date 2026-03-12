@@ -1,0 +1,28 @@
+^C:\USERS\AULA\FLUTTERWEATHERPROJECT\SRC\CLIENT\BUILD\WINDOWS\X64\CMAKEFILES\6C3358B93223CD50FE09E54FF1DAD668\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\Aula\FlutterWeatherProject\src\client FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Aula\FlutterWeatherProject\src\client\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Aula\FlutterWeatherProject\src\client FLUTTER_TARGET=C:\Users\Aula\FlutterWeatherProject\src\client\lib\main.dart DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuNDEuNA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZmYzN2JlZjYwMw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049ZTRiOGRjYTNmMQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4x DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Aula\FlutterWeatherProject\src\client\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AULA\FLUTTERWEATHERPROJECT\SRC\CLIENT\BUILD\WINDOWS\X64\CMAKEFILES\527685352846789FF3F05864EBE3540C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AULA\FLUTTERWEATHERPROJECT\SRC\CLIENT\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Aula/FlutterWeatherProject/src/client/windows -BC:/Users/Aula/FlutterWeatherProject/src/client/build/windows/x64 --check-stamp-file C:/Users/Aula/FlutterWeatherProject/src/client/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
