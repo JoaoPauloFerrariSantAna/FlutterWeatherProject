@@ -1,4 +1,3 @@
-// https://stackoverflow.com/questions/53294006/how-to-create-a-custom-appbar-widget
 import 'package:flutter/material.dart';
 
 class _AppBarDefaultState extends State<AppBarDefault>
@@ -13,6 +12,7 @@ class _AppBarDefaultState extends State<AppBarDefault>
   }
 }
 
+// https://stackoverflow.com/questions/53294006/how-to-create-a-custom-appbar-widget
 class AppBarDefault extends StatefulWidget implements PreferredSizeWidget
 {
   final String title;

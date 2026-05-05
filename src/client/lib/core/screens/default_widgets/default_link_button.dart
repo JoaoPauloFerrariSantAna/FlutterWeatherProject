@@ -8,7 +8,11 @@ class LinkButtonDefault extends StatelessWidget
   final String text;
   final String prefix;
 
-  const LinkButtonDefault({ super.key, required this.text, required this.prefix });
+  const LinkButtonDefault({
+    super.key,
+    required this.text,
+    required this.prefix
+  });
 
   @override
   Widget build(BuildContext ctx) {
@@ -17,5 +21,4 @@ class LinkButtonDefault extends StatelessWidget
       child: Text(this.text)
     );
   }
-
 }
