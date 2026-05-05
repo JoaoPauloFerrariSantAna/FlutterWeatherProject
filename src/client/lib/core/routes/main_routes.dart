@@ -17,8 +17,8 @@ class _Route
 
 final mainRoutes = [
   _Route(prefix: "/", screen: const HomePageScreen(title: "Index")),
-  _Route(prefix: "/register", screen: const RegisterScreen(title: "Registration")),
-  _Route(prefix: "/login", screen: const LoginScreen(title: "Login"))
+  _Route(prefix: "/register", screen: const RegisterScreen()),
+  _Route(prefix: "/login", screen: const LoginScreen())
 ];  
 
 final GoRouter router = GoRouter(
